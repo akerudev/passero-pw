@@ -22,7 +22,7 @@ Il progetto mira a progettare e implementare un sistema per la segmentazione aut
 
 ## ⚙️ Requisiti di Sistema
 
-Il progetto è stato sviluppato e testato utilizzando **Python 3.11+**. 
+Il progetto è stato sviluppato e testato utilizzando **Python 3.14.6**. 
 Si consiglia vivamente l'utilizzo di un ambiente virtuale (Virtual Environment) per evitare conflitti con altre librerie di sistema.
 
 Librerie principali impiegate:
