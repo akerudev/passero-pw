@@ -1,0 +1,49 @@
+graph TD
+    %% Stili personalizzati per i nodi
+    classDef script fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#fff;
+    classDef data fill:#27ae60,stroke:#2ecc71,stroke-width:2px,color:#fff;
+    classDef ui fill:#8e44ad,stroke:#9b59b6,stroke-width:2px,color:#fff;
+    classDef external fill:#f39c12,stroke:#d35400,stroke-width:2px,color:#fff;
+
+    %% Modulo 1: Generazione Dati
+    subgraph Fase 1: Data Generation
+        A(data_generator.py<br>Script Python):::script
+        B{Regole Statistiche<br>& Profili Latenti}:::external
+        C[(clienti_startup.csv<br>Dati Grezzi)]:::data
+        
+        B -.->|Genera Varianza| A
+        A -->|Esporta 300 Record| C
+    end
+
+    %% Modulo 2: Machine Learning
+    subgraph Fase 2: Preprocessing & ML
+        D(ml_pipeline.py<br>Script Python):::script
+        E[StandardScaler<br>Normalizzazione]:::script
+        F[K-Means Clustering<br>k=3]:::script
+        G[Indice di Silhouette<br>Validazione]:::script
+        H[(clienti_clusterizzati.csv<br>Dati Etichettati)]:::data
+        I([scaler.pkl<br>Modello Serializzato]):::data
+        J([kmeans_model.pkl<br>Modello Serializzato]):::data
+        
+        C -->|Legge Dati Grezzi| D
+        D --> E
+        E --> F
+        F --> G
+        F -->|Etichetta e Salva| H
+        E -->|Esporta| I
+        F -->|Esporta| J
+    end
+
+    %% Modulo 3: Interfaccia Utente
+    subgraph Fase 3: Dashboard & Inferenza
+        K(app.py<br>Streamlit Web App):::ui
+        L(Interfaccia Utente<br>Marketing Team):::ui
+        M[Input Nuovo Cliente<br>Simulatore]:::external
+        
+        H -->|Carica Dati Plotly 3D| K
+        I -.->|Carica per Inferenza| K
+        J -.->|Carica per Inferenza| K
+        K <-->|Filtra / Esplora| L
+        M -->|StandardScaler.transform| K
+        K -->|Output Cluster| M
+    end
