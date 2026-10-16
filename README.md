@@ -17,6 +17,8 @@ Il progetto mira a progettare e implementare un sistema per la segmentazione aut
 - `ml_pipeline.py`: Script per la normalizzazione dei dati e l'addestramento del modello K-Means.
 - `app.py`: Codice sorgente della web application interattiva (Dashboard).
 - `README.md`: Documentazione del progetto.
+- `diagram_project.png`: Immagine del diagramma di flusso.
+- `graph.txt`: Codice markup generazione grafico visivo con Mermaid Live Editor.
 
 *(I file `.csv` e i modelli salvati `.pkl` verranno generati automaticamente durante l'esecuzione degli script).*
 
