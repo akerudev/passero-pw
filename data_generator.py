@@ -40,15 +40,15 @@ for client_id in range(1, NUM_RECORDS + 1):  # 300 ripetizioni, client_id da 1 a
     profile_type = np.random.choice(['Occasionale', 'Fedele', 'Altospendente'], p=[0.5, 0.3, 0.2])
     
     if profile_type == 'Occasionale':  # max() evita valori nulli o negativi, int() rende interi (per tutti i profili)
-        recency = max(1, int(np.random.normal(loc=120, scale=30)))  # lontani nel tempo
+        recency = max(1, int(np.random.normal(loc=120, scale=30)))  # ultima richiesta lontana
         frequency = max(1, int(np.random.normal(loc=3, scale=1)))  # poche richieste
         monetary = max(10, np.random.normal(loc=50, scale=15))  # bassa spesa
     elif profile_type == 'Fedele':
-        recency = max(1, int(np.random.normal(loc=20, scale=10)))  # molto recenti 
+        recency = max(1, int(np.random.normal(loc=20, scale=10)))  # ultima richiesta molto recente
         frequency = max(1, int(np.random.normal(loc=15, scale=4)))  # molte richieste
-        monetary = max(10, np.random.normal(loc=150, scale=40))  # spesa media
+        monetary = max(10, np.random.normal(loc=150, scale=40))  # spesa intermedia
     else:  # Altospendente
-        recency = max(1, int(np.random.normal(loc=60, scale=20)))  # abbastanza recenti
+        recency = max(1, int(np.random.normal(loc=60, scale=20)))  # ultima richiestaabbastanza
         frequency = max(1, int(np.random.normal(loc=8, scale=2)))  # richieste medie
         monetary = max(50, np.random.normal(loc=500, scale=100))  # spesa molto alta
         
