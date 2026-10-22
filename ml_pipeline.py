@@ -7,7 +7,7 @@ Progetto: Project Work (Traccia 28) - Intelligenza Artificiale e Machine Learnin
           per i processi aziendali.
 Obiettivo: Progettare un sistema di segmentazione automatica della clientela 
            per un'azienda digitale di servizi.
-
+Data inizio sviluppo file: 10/10/2026
 File: ml_pipeline.py
 Descrizione: Pipeline di Machine Learning: pulizia dei dati, standardizzazione,
              valutazione di k (metodo del gomito e indice di silhouette),
