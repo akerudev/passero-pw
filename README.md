@@ -19,6 +19,9 @@ Il progetto mira a progettare e implementare un sistema per la segmentazione aut
 - `README.md`: Documentazione del progetto.
 - `diagram_project.png`: Immagine del diagramma di flusso.
 - `graph.txt`: Codice markup generazione grafico visivo con Mermaid Live Editor.
+- `clienti_startup.csv`: il dataset generato.
+- `clienti_clusterizzati.csv`: i risultati con il segmento di ogni cliente.
+- `valutazione_k.csv`: il confronto di k da 2 a 6.
 
 *(I file `.csv` e i modelli salvati `.pkl` verranno generati automaticamente durante l'esecuzione degli script).*
 
