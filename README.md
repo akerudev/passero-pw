@@ -22,6 +22,9 @@ Il progetto mira a progettare e implementare un sistema per la segmentazione aut
 - `clienti_startup.csv`: il dataset generato.
 - `clienti_clusterizzati.csv`: i risultati con il segmento di ogni cliente.
 - `valutazione_k.csv`: il confronto di k da 2 a 6.
+- `figura_8_dashboard.png`: Dashboard Interattiva.
+- `figura_9_segmenti.png`: Profilo medio segmenti.
+- `figura_10_grafico_dispersione.png`: Grafico bidimensionale dispersione.
 
 *(I file `.csv` e i modelli salvati `.pkl` verranno generati automaticamente durante l'esecuzione degli script).*
 
