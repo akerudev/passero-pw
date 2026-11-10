@@ -82,7 +82,7 @@ df['Nome_Cluster'] = df['Cluster_ID'].map(nomi_mappa)
 # 8. Salvataggio risultati e modelli
 df.to_csv('clienti_clusterizzati.csv', index=False)  # risultati: un cliente per riga con il segmento
 joblib.dump(scaler, 'scaler.pkl')  # riusato dalla dashboard per i nuovi clienti
-joblib.dump(kmeans, 'kmeans_model.pkl')
+joblib.dump(kmeans, 'kmeans_model.pkl')  # modello con i 3 centroidi, usato dalla dashboard per classificare
 
 print("Modello addestrato. Dati salvati in 'clienti_clusterizzati.csv'.")
 print("Modello e Scaler esportati (.pkl) per la dashboard.")
