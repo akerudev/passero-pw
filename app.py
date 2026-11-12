@@ -15,3 +15,11 @@ Descrizione: Dashboard interattiva Streamlit: filtri (zona, periodo, categoria),
 =============================================================================
 """
 
+# Importazione delle librerie
+
+import streamlit as st  # framework della dashboard web
+import pandas as pd  # tabelle e filtri
+import plotly.express as px  # grafici interattivi
+import joblib  # caricamento dei modelli (.pkl)
+
+
