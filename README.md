@@ -49,12 +49,16 @@ Aprire il terminale e clonare il repository (se ospitato su Git) o navigare nell
 **Su Windows:**
 ```bash
 python -m venv env
+```
+```bash
 .env\Scripts\activate
 ```
 **Su macOS:**
 ```bash
 python3 -m venv env
-source env/bin/actvate
+```
+```bash
+source env/bin/activate
 ```
 **Installazione delle Dipendenze con l'ambiente virtuale attivo, installare le librerie richieste eseguendo:**
 ```bash
