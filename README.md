@@ -56,7 +56,7 @@ python -m venv env
 python3 -m venv env
 source env/bin/actvate
 ```
-**Installazione delle Dipendenze**
+##Installazione delle Dipendenze
 Con l'ambiente virtuale attivo, installare le librerie richieste eseguendo:
 ```bash
 pip install -r requirements.txt
