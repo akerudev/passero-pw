@@ -41,11 +41,15 @@ Librerie principali impiegate:
 
 ## 🚀 Istruzioni per l'Installazione e l'Uso
 
-Seguire pedissequamente i seguenti passaggi per eseguire il progetto in locale.
+Seguire i seguenti passaggi per eseguire il progetto in locale.
 
-### 1. Clonazione e Setup dell'Ambiente
-Aprire il terminale e clonare il repository (se ospitato su Git) o navigare nella directory del progetto. Creare e attivare un ambiente virtuale:
-
+### Clonazione e Setup dell'Ambiente
+Scaricare tutti i file del repository da GitHub (tramite il pulsante **Code -> Download ZIP** ed estraendo la cartella sul proprio computer, oppure clonando il repository con `git clone`).
+Aprire il terminale ed entrare nella cartella del progetto appena scaricata:
+```bash
+cd nome_della_cartella
+```
+## Creare e attivare l'ambiente virtuale al suo interno:
 **Su Windows:**
 ```bash
 python -m venv env
