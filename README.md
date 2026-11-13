@@ -82,7 +82,7 @@ Il terminale stamperà la tabella di confronto per k = 2..6 e il valore dell'Ind
 ```bash
 streamlit run app.py
 ```
-Il terminale avvierà un server locale e si aprirà automaticamente una scheda nel browser predefinito all'indirizzo http://localhost[:]8501 (oppure altra porta se occupata)
+Il terminale avvierà un server locale e si aprirà automaticamente una scheda nel browser predefinito all'indirizzo http://localhost:8501 (oppure altra porta se occupata)
 
 Per fermare il comando da terminale Ctrl(windows)/control(mac)+c sulla tastiera.
 
