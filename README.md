@@ -3,12 +3,12 @@
 Questo repository contiene il codice sorgente e la documentazione relativi al Project Work finale per il corso di studi in Informatica per le Aziende Digitali (Università Telematica Pegaso). 
 
 Il progetto mira a progettare e implementare un sistema per la segmentazione automatica della clientela di una startup digitale, utilizzando tecniche di Machine Learning non supervisionato (K-Means) e fornendo una dashboard interattiva per l'analisi dei risultati.
-## 🔊 Attiva l'audio dal player per sentire la spiegazione
+## 🔊 Attivare l'audio dal player per sentire la spiegazione
 
 
 https://github.com/user-attachments/assets/e48b6e4e-d30d-4818-b7d8-982bd0d4200e
 
-## 🔊 Attiva l'audio dal player per sentire la spiegazione
+## 🔊 Attivare l'audio dal player per sentire la spiegazione
 
 ## 🎯 Obiettivi del Progetto
 
