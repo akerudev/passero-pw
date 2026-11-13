@@ -76,7 +76,7 @@ Il terminale confermerà l'avvenuta creazione nella cartella del file clienti_st
 ```bash
 python ml_pipeline.py
 ```
-Il terminale stamperà la tabella di confronto per k = 2..6 e il valore dell'Indice di Silhouette (es. 0.642). Nella cartella compariranno automaticamente quattro nuovi file: clienti_clusterizzati.csv (con i dati finali), valutazione_k.csv (metriche per i grafici di validazione), kmeans_model.pkl e scaler.pkl (i modelli salvati per l'inferenza).
+Il terminale stamperà la tabella di confronto per k = 2..6 e il valore dell'Indice di Silhouette (es. 0.691). Nella cartella compariranno automaticamente quattro nuovi file: clienti_clusterizzati.csv (con i dati finali), valutazione_k.csv (metriche per i grafici di validazione), kmeans_model.pkl e scaler.pkl (i modelli salvati per l'inferenza).
 
 **Avvio Dashboard**
 ```bash
