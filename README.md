@@ -60,7 +60,7 @@ python3 -m venv env
 ```bash
 source env/bin/activate
 ```
-**Installazione delle Dipendenze con l'ambiente virtuale attivo, installare le librerie richieste eseguendo:**
+**Installazione delle dipendenze con l'ambiente virtuale attivo, installare le librerie richieste eseguendo:**
 ```bash
 pip install -r requirements.txt
 ```
