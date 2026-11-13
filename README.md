@@ -51,7 +51,7 @@ Aprire il terminale e clonare il repository (se ospitato su Git) o navigare nell
 python -m venv env
 ```
 ```bash
-.env\Scripts\activate
+.\env\Scripts\activate
 ```
 **Su macOS:**
 ```bash
@@ -76,7 +76,7 @@ Il terminale confermerà l'avvenuta creazione nella cartella del file clienti_st
 ```bash
 python ml_pipeline.py
 ```
-Il terminale stamperà il valore dell'Indice di Silhouette (es. 0.642). Nella cartella compariranno automaticamente tre nuovi file: clienti_clusterizzati.csv (con i dati finali), kmeans_model.pkl e scaler.pkl (i modelli salvati per l'inferenza).
+Il terminale stamperà la tabella di confronto per k = 2..6 e il valore dell'Indice di Silhouette (es. 0.642). Nella cartella compariranno automaticamente quattro nuovi file: clienti_clusterizzati.csv (con i dati finali), valutazione_k.csv (metriche per i grafici di validazione), kmeans_model.pkl e scaler.pkl (i modelli salvati per l'inferenza).
 
 **Avvio Dashboard**
 ```bash
@@ -87,7 +87,7 @@ Il terminale avvierà un server locale e si aprirà automaticamente una scheda n
 Per fermare il comando da terminale Ctrl(windows)/control(mac)+c sulla tastiera.
 
 ## 🔁 Riproducibilità
-L'impostazione del Seed fisso (`42`) e data di riferimento fissa in `data_generator.py` garantisce che ogni esecuzione produce gli stessi dati e gli stessi cluster.
+L'impostazione del Seed fisso (`42`) e data di riferimento fissa in `data_generator.py` (2026-10-01) garantisce che ogni esecuzione produce gli stessi dati e gli stessi cluster.
 
 
 
