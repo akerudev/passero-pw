@@ -48,7 +48,7 @@ for client_id in range(1, NUM_RECORDS + 1):  # 300 ripetizioni, client_id da 1 a
         frequency = max(1, int(np.random.normal(loc=15, scale=4)))  # molte richieste
         monetary = max(10, np.random.normal(loc=150, scale=40))  # spesa intermedia
     else:  # Altospendente
-        recency = max(1, int(np.random.normal(loc=60, scale=20)))  # ultima richiestaabbastanza
+        recency = max(1, int(np.random.normal(loc=60, scale=20)))  # ultima richiesta abbastanza
         frequency = max(1, int(np.random.normal(loc=8, scale=2)))  # richieste medie
         monetary = max(50, np.random.normal(loc=500, scale=100))  # spesa molto alta
         
