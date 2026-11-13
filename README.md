@@ -70,7 +70,7 @@ Attendere qualche istante affinché il sistema scarichi e installi Pandas, NumPy
 ```bash
 python data_generator.py
 ```
-Il terminale confermerà l'avvenuta creazione nella cartella del file clienti_startup.csv.
+Il terminale confermerà l'avvenuta creazione nella cartella del file clienti_startup.csv
 
 **Addestramento modello(clustering)**
 ```bash
