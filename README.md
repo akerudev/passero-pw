@@ -64,7 +64,7 @@ source env/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-Attendere qualche istante affinché il sistema scarichi e installi Pandas, Scikit-Learn, Streamlit e Plotly
+Attendere qualche istante affinché il sistema scarichi e installi Pandas, NumPy, Scikit-Learn, Joblib, Streamlit e Plotly
 
 **Generazione del Dataset**
 ```bash
