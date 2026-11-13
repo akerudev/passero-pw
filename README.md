@@ -4,6 +4,11 @@ Questo repository contiene il codice sorgente e la documentazione relativi al Pr
 
 Il progetto mira a progettare e implementare un sistema per la segmentazione automatica della clientela di una startup digitale, utilizzando tecniche di Machine Learning non supervisionato (K-Means) e fornendo una dashboard interattiva per l'analisi dei risultati.
 
+
+https://github.com/user-attachments/assets/e48b6e4e-d30d-4818-b7d8-982bd0d4200e
+
+
+
 ## 🎯 Obiettivi del Progetto
 
 1. **Generazione Dati:** Creazione procedurale di un dataset sintetico (300 record) basato su distribuzioni statistiche realistiche (metriche RFM: Recency, Frequency, Monetary).
