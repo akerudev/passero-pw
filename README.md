@@ -56,8 +56,7 @@ python -m venv env
 python3 -m venv env
 source env/bin/actvate
 ```
-**Installazione delle Dipendenze**
-**Con l'ambiente virtuale attivo, installare le librerie richieste eseguendo:**
+**Installazione delle Dipendenze con l'ambiente virtuale attivo, installare le librerie richieste eseguendo:**
 ```bash
 pip install -r requirements.txt
 ```
@@ -84,7 +83,7 @@ Il terminale avvierà un server locale e si aprirà automaticamente una scheda n
 Per fermare il comando da terminale Ctrl(windows)/control(mac)+c sulla tastiera.
 
 ## 🔁 Riproducibilità
-Seed fisso (`42`) e data di riferimento fissa in `data_generator.py`: ogni esecuzione produce gli stessi dati e gli stessi cluster.
+L'impostazione del Seed fisso (`42`) e data di riferimento fissa in `data_generator.py` garantisce che ogni esecuzione produce gli stessi dati e gli stessi cluster.
 
 
 
