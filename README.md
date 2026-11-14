@@ -3,6 +3,14 @@
 Questo repository contiene il codice sorgente e la documentazione relativi al Project Work finale per il corso di studi in Informatica per le Aziende Digitali (Università Telematica Pegaso). 
 
 Il progetto mira a progettare e implementare un sistema per la segmentazione automatica della clientela di una startup digitale, utilizzando tecniche di Machine Learning non supervisionato (K-Means) e fornendo una dashboard interattiva per l'analisi dei risultati.
+<div align="right">
+
+> *"Abbiamo visto che la programmazione è un'arte,*  
+> *perché richiede conoscenza, applicazione, abilità e ingegno,*  
+> *ma soprattutto per la bellezza degli oggetti che produce."*  
+> — **Donald Ervin Knuth**
+
+</div>
 ## 🔊 Attivare l'audio dal player per ascoltare la spiegazione
 
 
