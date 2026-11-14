@@ -1,5 +1,3 @@
-# Project Work: Segmentazione Automatica della Clientela
-
 <div align="right">
 
 > *"Abbiamo visto che la programmazione è un'arte,*  
@@ -8,6 +6,8 @@
 > — **Donald Ervin Knuth**
 
 </div>
+
+# Project Work: Segmentazione Automatica della Clientela
 
 Questo repository contiene il codice sorgente e la documentazione relativi al Project Work finale per il corso di studi in Informatica per le Aziende Digitali (Università Telematica Pegaso). 
 
