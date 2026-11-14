@@ -102,7 +102,7 @@ Il terminale stamperà la tabella di confronto per k = 2..6 e il valore dell'Ind
 ```bash
 streamlit run app.py
 ```
-> **Nota sul primo avvio di Streamlit**
+> **Nota sul primo avvio di Streamlit:**
 > Al primissimo avvio della dashboard, il terminale potrebbe richiedere l'inserimento di un indirizzo email (per statistiche o newsletter). Trattandosi di un ambiente di sviluppo/test, è sufficiente **premere Invio lasciando il campo vuoto**. Il sistema salterà il passaggio, memorizzerà la preferenza in locale (creando il file nascosto `.streamlit/credentials.toml`) e avvierà regolarmente l'interfaccia nel browser.
 Il terminale avvierà un server locale e si aprirà automaticamente una scheda nel browser predefinito all'indirizzo http://localhost:8501 (oppure altra porta se occupata).
 
