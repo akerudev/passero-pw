@@ -1,8 +1,5 @@
 # Project Work: Segmentazione Automatica della Clientela
 
-Questo repository contiene il codice sorgente e la documentazione relativi al Project Work finale per il corso di studi in Informatica per le Aziende Digitali (Università Telematica Pegaso). 
-
-Il progetto mira a progettare e implementare un sistema per la segmentazione automatica della clientela di una startup digitale, utilizzando tecniche di Machine Learning non supervisionato (K-Means) e fornendo una dashboard interattiva per l'analisi dei risultati.
 <div align="right">
 
 > *"Abbiamo visto che la programmazione è un'arte,*  
@@ -11,6 +8,11 @@ Il progetto mira a progettare e implementare un sistema per la segmentazione aut
 > — **Donald Ervin Knuth**
 
 </div>
+
+Questo repository contiene il codice sorgente e la documentazione relativi al Project Work finale per il corso di studi in Informatica per le Aziende Digitali (Università Telematica Pegaso). 
+
+Il progetto mira a progettare e implementare un sistema per la segmentazione automatica della clientela di una startup digitale, utilizzando tecniche di Machine Learning non supervisionato (K-Means) e fornendo una dashboard interattiva per l'analisi dei risultati.
+
 ## 🔊 Attivare l'audio dal player per ascoltare la spiegazione
 
 
