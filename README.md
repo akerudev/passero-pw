@@ -13,12 +13,15 @@ Questo repository contiene il codice sorgente e la documentazione relativi al Pr
 
 Il progetto mira a progettare e implementare un sistema per la segmentazione automatica della clientela di una startup digitale, utilizzando tecniche di Machine Learning non supervisionato (K-Means) e fornendo una dashboard interattiva per l'analisi dei risultati.
 
+## 🎥 Demo del Progetto
 ## 🔊 Attivare l'audio dal player per ascoltare la spiegazione
 
 
 https://github.com/user-attachments/assets/e48b6e4e-d30d-4818-b7d8-982bd0d4200e
 
 ## 🔊 Attivare l'audio dal player per ascoltare la spiegazione
+> [!NOTE]
+> **Nota sulla qualità video:** Il file è stato compresso per rispettare il limite massimo di 10 MB imposto da GitHub per l'embedding diretto nei file Markdown. La risoluzione ridotta è dovuta esclusivamente a questo vincolo tecnico.
 
 ## 🎯 Obiettivi del Progetto
 
