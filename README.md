@@ -44,6 +44,8 @@ https://github.com/user-attachments/assets/e48b6e4e-d30d-4818-b7d8-982bd0d4200e
 - `figura_8_dashboard.png`: Dashboard Interattiva.
 - `figura_9_segmenti.png`: Profilo medio segmenti.
 - `figura_10_grafico_dispersione.png`: Grafico bidimensionale.
+- `tabella_1_confronto_k.png`: Confronto tra le configurazioni (k da 2 a 6).
+- `tabella_2_profilo_medio_segmenti.png`: Profilo medio segmenti.
 
 *(I file `.csv` e i modelli salvati `.pkl` verranno generati automaticamente durante l'esecuzione degli script).*
 
